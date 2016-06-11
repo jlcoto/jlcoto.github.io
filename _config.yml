@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: José Coto - A data science practitioner's blog
+email: jcoto.contact@gmail.com
+description: web page about data science and 
+ projects I am working on.
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "/Users/Jose/Documents/personal-web" # the base hostname & protocol for your site
+twitter_username: jcoto
+github_username:  jlcoto
+paginate: 3
+gems: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      comments: true

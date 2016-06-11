@@ -1,0 +1,501 @@
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/icons/icomoon.eot');
+	src:url('/icons/icomoon.eot?#iefix') format('embedded-opentype'),
+		 url('/icons/icomoon.woff') format('woff'),
+		 url('/icons/icomoon.ttf') format('truetype'),
+		 url('/icons/icomoon.svg#icomoon') format('svg');
+}
+
+.head-menu {
+	margin-right: 10%;
+	margin-top: 0.75em;
+	display: block;
+	margin-bottom: 25px;
+	text-align: right;
+	max-width: 850px;
+
+}
+
+.left-float {
+	float: left;
+}
+
+.minilogo {
+    background-image: url('/img/minilog.png');
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    margin-top: 0px;
+    display: block;
+    width: 120px;
+    height: 60px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space:nowrap;
+}
+
+
+.head-menu a {
+	display: inline-block;
+	margin: 0.5em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+	font-size: 1.4em;
+	border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+
+.logo-background {
+	width: 340px;
+	height: 140px;
+	background-image: url('/img/logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	left:150px;
+	position:relative;
+	margin-left:14%;
+	-webkit-font-smoothing: antialiased; 
+}
+
+.post-list a {
+	font-size: 0.9em;
+	font-weight: 200;
+}
+
+.content {
+	margin-left: 25%;
+	margin-right: 25%;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.title {
+	font-weight: 575;
+	font-size: 44px;
+	margin-bottom: 10px;
+	color: #958383;
+}
+
+.footer{
+	border-top: 2px solid #E4A298;
+	margin: 3% 25%;
+	text-align: center;
+	max-width: 360px;
+}
+
+.footer a{
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 2em;
+	margin-bottom: 25px;
+}
+
+.head-menu a:link {
+	color: #958E8E;
+	text-decoration: none;
+}
+
+.head-menu a:visited {
+	color: #958E8E;
+	text-decoration: none;
+}
+
+.footer a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+.head-menu a:hover {
+	border-bottom: 2px solid #B60B0B;
+} 
+
+.post-list a:link {
+	color: #958383;
+	text-decoration: none;
+}
+
+.post-list a:visited {
+	color: #958383;
+	text-decoration: none;
+}
+
+.post-list a:hover {
+	color: #D75643;
+}
+
+.post-list li {
+    list-style-type: none;
+}
+
+.post-list {
+	margin-top: -15px;
+	margin-left: -100px;
+	max-width: 500px;
+}
+
+.post-list h2 {
+	margin-left: 35px;
+}
+
+.post_extract {
+	margin-top: -12px;
+	line-height: 135%;
+	color: #474040;
+}
+
+
+
+.github:after {
+	content: "\e902";
+	font-family: "icomoon";
+	color: #958E8E;
+	font-size: 1.7em;
+	-webkit-font-smoothing: antialiased; 
+}
+
+.twitter:after {
+	content: "\e901";
+	font-family: "icomoon";
+	color: #958E8E;
+	font-size: 1.7em;
+	-webkit-font-smoothing: antialiased; 
+}
+
+.instagram:after {
+	content: "\e900";
+	font-family: "icomoon";
+	color: #958E8E;
+	font-size: 1.7em;
+	-webkit-font-smoothing: antialiased; 
+}
+
+.linkedin:after {
+	content: "\e904";
+	font-family: "icomoon";
+	color: #958E8E;
+	font-size: 1.7em;
+	-webkit-font-smoothing: antialiased; 
+}
+
+.github:hover:after{
+	content: "\e902";
+	font-family: "icomoon";
+	color: #D75643;
+}
+
+.twitter:hover:after{
+	content: "\e901";
+	font-family: "icomoon";
+	color: #D75643;
+}
+
+.instagram:hover:after{
+	content: "\e900";
+	font-family: "icomoon";
+	color: #D75643;
+}
+
+.linkedin:hover:after{
+	content: "\e904";
+	font-family: "icomoon";
+	color: #D75643;
+}
+
+/*Post's styling*/
+
+.post{
+	margin-left: 25%;
+	margin-right: 25%;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 145%;
+	color: #474040;
+}
+
+.post-title {
+	color: #D75643;
+	margin-bottom: 0px;
+	font-size: 2.3em;
+	line-height: 90%;
+	max-width: 360px;
+}
+
+
+.post-meta{
+	color: #958E8E;
+	margin-top: 7px;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.post-content {
+	margin-left: -3rem;
+	max-width: 500px;
+}
+
+.post-content a:link {
+	text-decoration: none;
+	color: #D45F2D;
+}
+
+.post-content a:visited {
+	text-decoration: none;
+	color: #D45F2D;
+}
+
+.image-post {
+	display: block;
+	margin-left: 5%;
+    margin-right: 10%;
+}
+
+#disqus_thread {
+	margin-top: 20px;
+	margin-left:20%;
+	margin-right:30%;
+}
+
+/*About page styling*/
+
+
+.personal_info img {
+	width: 135px;
+	height: 200px;
+	float: left;
+	border-radius: 30% 10%;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-right: 3px solid #FDE9E9;
+	border-bottom: 2px solid #FDE9E9;
+}
+
+
+/*Projects' page styling*/
+
+.project-box {
+  border: 2px solid #D1CCCC;
+  margin-top: 20px;
+  margin-left: -3rem;
+  margin-right: -3rem;
+  padding: 2%;
+  background-color: #EEEEEE;
+  border-radius: 3%;
+  color: #403A3A;
+  max-width: 500px;
+}
+
+.der_game {
+	width: 150px;
+	height: 150px;
+	background-image: url('/img/der_die_das.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5%;
+}
+
+.pandas {
+	width: 150px;
+	height: 150px;
+	background-image: url('/img/pandas_logo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5%;
+}
+
+.class_meth {
+	width: 150px;
+	height: 150px;
+	background-image: url('/img/class_meth.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5%;
+}
+
+.project-box h3 {
+ 	margin-top: -1px;
+ 	margin-bottom: -12px;
+ 	width: 300px;
+ 	font-size: 14px;
+ 	overflow: hidden;
+	}
+
+.project-box p {
+	width: 300px;
+	font-size: 14px;
+	line-height: 145%;
+	overflow: hidden;
+}
+
+.project-box a:link{
+	text-decoration: none;
+	color: #403A3A;
+}
+
+.project-box a:visited{
+	text-decoration: none;
+	color: #403A3A;
+}
+
+
+
+
+
+@media screen and (max-width: 599px) {
+		.head-menu {
+			margin-right: 8%;
+		}
+
+		.head-menu a {
+		font-size: 1.1em;
+		margin: 0.3em;
+		}
+
+		.minilogo {
+		width: 90px;
+		height: 40px;
+		}
+
+		.logo-background{
+		width: 250px;
+		height: 95px;
+		margin-left: -100px;	
+		} 
+
+		.der_game {
+		width: 75px;
+		height: 75px;
+		margin-top: 30px;
+		background-size: contain;
+		}
+
+		.post {
+		font-size: 0.8em;	
+		}
+
+		.post-list a {
+		font-size: 0.8em;
+		}
+
+		.post_extract {
+		font-size: 0.85em;	
+		}
+
+		.post-title {
+		font-size: 1.6em;
+		}
+
+		.image-post {
+		width: 200px;
+		height: 175px;
+		display: block;
+		margin-left: 5%;
+    	margin-right: 10%;
+		}
+
+
+
+		.pandas {
+		width: 75px;
+		height: 75px;
+		margin-top: 30px;
+		background-size: contain;
+		}
+
+		.class_meth {
+		width: 75px;
+		height: 75px;
+		margin-top: 30px;
+		background-size: contain;
+		}
+
+		.project-box h3 {
+		font-size: 12px;
+		width: 60%;
+		}
+
+		.project-box p {
+		font-size: 12px;
+		width: 60%;
+		}
+
+		.github:after {
+		font-size: 1.2em;
+		}
+
+		.twitter:after {
+		font-size: 1.2em;
+		}
+
+		.instagram:after {
+		font-size: 1.2em;
+		}
+
+		.linkedin:after {
+		font-size: 1.2em;
+		}
+
+		.footer a{
+		margin-right: 1em;
+		}
+}
+
+@media only screen and (min-width:599px) and (max-width: 799px) {
+
+	.logo-background{
+	width: 340px;
+	height: 140px;
+	margin-left: 1%;	
+	} 
+
+	.der_game {
+	width: 125px;
+	height: 125px;
+	}
+
+	.pandas {
+	width: 125px;
+	height: 125px;
+	}
+
+	.class_meth {
+	width: 125px;
+	height: 125px;		
+	}
+
+	.project-box h3 {
+	font-size: 13px;
+	width: 60%;
+	}
+
+	.project-box p {
+	font-size: 13px;
+	width: 60%;
+	}
+}
+
+
+@media screen and (min-width: 980px) {
+	.logo-background {
+		background-size: contain;
+		width: 340px;
+		height: 140px;
+		left:12.5%;
+	}
+
+
+
+
