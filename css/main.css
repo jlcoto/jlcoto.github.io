@@ -236,8 +236,9 @@
 }
 
 .post-content {
-	margin-left: -3rem;
-	max-width: 500px;
+	margin-left: -5rem;
+	max-width: 525px;
+	line-height: 155%;
 }
 
 .post-content a:link {
@@ -252,7 +253,7 @@
 
 .image-post {
 	display: block;
-	margin-left: 5%;
+	margin-left: 10%;
     margin-right: 10%;
 }
 
@@ -398,6 +399,12 @@
 		font-size: 1.6em;
 		}
 
+		.highlight {
+		margin-left: 3px;
+		margin-right: -40px;
+		}
+
+
 		.image-post {
 		width: 200px;
 		height: 175px;
@@ -405,8 +412,6 @@
 		margin-left: 5%;
     	margin-right: 10%;
 		}
-
-
 
 		.pandas {
 		width: 75px;
@@ -421,6 +426,10 @@
 		margin-top: 30px;
 		background-size: contain;
 		}
+/*
+		.project-box {
+		margin-left: 20px;
+		}*/
 
 		.project-box h3 {
 		font-size: 12px;
@@ -495,6 +504,9 @@
 		height: 140px;
 		left:12.5%;
 	}
+
+
+/*Correct floating*/
 
 
 

@@ -72,3 +72,19 @@
 .highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;} 
 .lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
 .lineno::selection {background-color: transparent;} /* Other major browsers */
+
+@media screen and (max-width: 599px) {
+	.highlight {
+	padding: 0.3125em 0.55em;
+	}
+	}
+
+
+@media only screen and (min-width:599px) and (max-width: 799px) {
+	.highlight {
+	padding: 0.3125em 0.55em;
+	margin-left: 3px;
+	margin-right: -10px;
+	}
+	}
+}
