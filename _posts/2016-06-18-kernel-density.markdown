@@ -58,7 +58,7 @@ def obs_in_bin(array, binwidth):
     return freq, cal_bands
 {% endhighlight %}
 
-An important thing to remember is that this is not a frequency chart, i.e. the height of the bar *does not* gives us the probability of observing a value within that range. Remember that the histogram is trying to approximate the density of the variable. Plotting our results only takes one easy step:
+An important thing to remember is that this is not a frequency chart, i.e. the height of the bar *does not* give us the probability of observing a value within that range. Remember that the histogram is trying to approximate the density of the variable. Plotting our results only takes one easy step:
 
 
 {% highlight python %}
