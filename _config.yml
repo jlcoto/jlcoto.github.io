@@ -10,7 +10,7 @@ title: José Coto - A data science practitioner's blog
 email: jcoto.contact@gmail.com
 description: web page about data science and 
  projects I am working on.
-baseurl: "jose-coto.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: jcoto
 github_username:  jlcoto
