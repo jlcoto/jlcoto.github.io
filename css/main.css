@@ -152,6 +152,26 @@
 }
 
 
+.pagination {   
+	display: inline-block;
+    padding: 0.3125em 0.625em;
+    border-radius: 0.4em;
+    background: #f8f8f9;
+    margin-bottom: 0.75em;
+    font-size: 0.9375em;
+    margin-left: 20%;
+    color: #958E8E;
+}
+
+.pagination a {
+	color: #D75643;
+	text-decoration: none;
+}
+
+.pagination a:visited {
+	color: #D75643;
+}
+
 
 .github:after {
 	content: "\e902";
