@@ -11,7 +11,7 @@ email: jcoto.contact@gmail.com
 description: web page about data science and 
  projects I am working on.
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "/Users/Jose/Documents/personal-web" # the base hostname & protocol for your site
+url: "jose-coto.com" # the base hostname & protocol for your site
 twitter_username: jcoto
 github_username:  jlcoto
 paginate: 3

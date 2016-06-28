@@ -257,6 +257,67 @@
     margin-right: 10%;
 }
 
+.big-plot {
+	margin-left: -5%;
+    margin-right: 0%;
+}
+
+.next-two-tables table {
+    border-collapse: collapse;
+    border-spacing: 2;
+    display: inline-block;
+	vertical-align:top;
+	margin-left: 15px;
+
+}
+
+.next-two-tables th {
+    /*border:1px solid #000000;*/
+    text-align: center;
+  	vertical-align: middle;
+  	font-size: 0.9em;
+  	padding: 0.2em 0.6em;
+  	color: #5D4C4C;
+}
+
+.next-two-tables td {
+   /* border:1px solid #000000;*/
+    text-align: center;
+  	vertical-align: middle;
+  	font-size: 0.8em;
+  	padding: 0.2em 0.6em;
+  	color: #726767;
+}
+
+.next-two-tables tr {
+	border:1px solid #B79D9D;
+}
+
+.next-two-tables {
+	width: 500px;
+	margin-left: 7%;
+	display: inline-block;
+	vertical-align:top;
+
+
+}
+
+.tables-back {
+	background: #e8e9ea;
+	border-radius: 0.4em;
+	padding-bottom: 15px;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.table-ref {
+	float: left;
+	font-size: 2em;
+	color: #D45F2D;
+}
+
+
+
 #disqus_thread {
 	margin-top: 20px;
 	margin-left:20%;
@@ -277,6 +338,7 @@
 	border-right: 3px solid #FDE9E9;
 	border-bottom: 2px solid #FDE9E9;
 }
+
 
 
 /*Projects' page styling*/
