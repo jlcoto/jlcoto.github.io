@@ -282,6 +282,47 @@
     margin-right: 0%;
 }
 
+.single-table table {
+	border-collapse: collapse;
+    border-spacing: 2;
+    display: inline-block;
+	padding-top: 5px;
+	margin-left: 25%;
+	margin-bottom: -10px; 
+}
+
+.single-table th {
+    text-align: center;
+  	vertical-align: middle;
+  	font-size: 0.9em;
+  	padding: 0.2em 0.6em;
+  	color: #5D4C4C;
+}
+
+.single-table td {
+	text-align: center;
+  	vertical-align: middle;
+  	font-size: 0.8em;
+  	padding: 0.2em 0.6em;
+  	color: #726767;
+}
+
+.single-table tr {
+	border:1px solid #B79D9D;
+}
+
+.arrow-down {
+	height: 25px;
+	margin-left: 2.5%;
+}
+
+.table-pipe {
+	font-size: 1.3em;
+	color: #D45F2D;
+	border-color: red;
+	margin-left: 25%; 
+}
+
 .next-two-tables table {
     border-collapse: collapse;
     border-spacing: 2;
@@ -318,8 +359,6 @@
 	margin-left: 7%;
 	display: inline-block;
 	vertical-align:top;
-
-
 }
 
 .tables-back {
