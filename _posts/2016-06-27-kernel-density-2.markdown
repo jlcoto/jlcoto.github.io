@@ -43,7 +43,7 @@ Let me try to make this clear with a toy example. Let's say that we want to esti
 
 <div class="next-two-tables">
 
-<span class="table-ref"> A </span>
+<span class="table-ref-orig"> A </span>
 
 | Point $$x=4$$ | $$I(\lvert u \leq 1 \rvert)$$ | $$\frac{1}{nh}*\frac{3}{4}(1-u^2)$$ | 		   
 | ------------- | :----------------------------:| ----------------------| 
@@ -53,7 +53,7 @@ Let me try to make this clear with a toy example. Let's say that we want to esti
 | x = 5.1 		| False ( = 0 )					| 			0			 | 			  
 | 				| 			**Total**			| 		**0.057**        | 		
 
-<span class="table-ref"> B </span>
+<span class="table-ref-orig"> B </span>
 
 | Point $$x=4$$ | $$I(\lvert u \leq 1 \rvert)$$ | $$\frac{1}{nh}*\frac{3}{4}(1-u^2)$$ | 	   
 | ------------- | :----------------------------:| ----------------------| 

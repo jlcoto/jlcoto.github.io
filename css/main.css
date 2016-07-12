@@ -342,26 +342,32 @@
 }
 
 .next-two-tables td {
-   /* border:1px solid #000000;*/
     text-align: center;
   	vertical-align: middle;
   	font-size: 0.8em;
   	padding: 0.2em 0.6em;
   	color: #726767;
+
 }
 
 .next-two-tables tr {
 	border:1px solid #B79D9D;
 }
 
-.next-two-tables {
-	width: 500px;
-	margin-left: 7%;
-	display: inline-block;
-	vertical-align:top;
+.next-two-tables table{
+	width: 120px
+	margin-left: 2px;
+	float: left;
+	margin-right: 80px;
+	margin-bottom: 10px;
+	
 }
 
+
 .tables-back {
+	padding-left: 10px;
+	width: 85%;
+	display: inline-block;
 	background: #e8e9ea;
 	border-radius: 0.4em;
 	padding-bottom: 15px;
@@ -370,6 +376,13 @@
 }
 
 .table-ref {
+	float: left;
+	font-size: 2em;
+	color: #D45F2D;
+	margin-right: -5px;
+}
+
+.table-ref-orig {
 	float: left;
 	font-size: 2em;
 	color: #D45F2D;
@@ -534,6 +547,10 @@
     	margin-right: 10%;
 		}
 
+		.table-ref {
+			margin-right: 60px;
+		}
+
 		.pandas {
 		width: 75px;
 		height: 75px;
@@ -547,10 +564,10 @@
 		margin-top: 30px;
 		background-size: contain;
 		}
-/*
+
 		.project-box {
 		margin-left: 20px;
-		}*/
+		}
 
 		.project-box h3 {
 		font-size: 12px;
@@ -601,6 +618,10 @@
 	height: 125px;
 	}
 
+	.table-ref {
+	margin-right: 90px;
+	}
+
 	.class_meth {
 	width: 125px;
 	height: 125px;		
@@ -627,7 +648,14 @@
 	}
 
 
-/*Correct floating*/
+/*Correct floating -- clearfix*/
+
+.group::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
 
 
 
