@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: jcoto
 github_username:  jlcoto
-paginate: 3
+paginate: 10
 gems: [jekyll-paginate]
 
 # Build settings
