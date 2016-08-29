@@ -14,7 +14,7 @@ After learning d3.js for almost a week, I would have to say the truth lies somew
 
 While this might sound overwhelming, there are tons of materials and galleries you can check online. Perhaps the most known is [d3js.org](https://d3js.org/). I also found Scott Murray's [free online book](http://chimera.labs.oreilly.com/books/1230000000345) very good for clarifying the basics.
 
-However, when it comes to learning, I think nothing replaces the getting your hands dirty approach. I thought about doing a graph to demonstrate the effect of an outlier in a regression. I also wanted the graph to be interactive. I created some data which you can see in this notebook (include notebook here). The following step was to make an interactive graph with d3.js. Below, you can check how it looks like. I hope the future brings more graphs with it. I am particularly interested in maps and all the interactivity they bring with them ;)
+However, when it comes to learning, I think nothing replaces the getting your hands dirty approach. I thought about doing a graph to demonstrate the effect of an outlier in a regression. I also wanted the graph to be interactive. I created some data, which you can see in this [notebook](https://github.com/jlcoto/visualizations/blob/master/Outliers_d3.js.ipynb). The following step was to make an interactive graph with d3.js. Below, you can check how it looks like. I hope the future brings more graphs with it. I am particularly interested in maps and all the interactivity they bring with them ;)
 
 
 
