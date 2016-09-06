@@ -8,13 +8,14 @@
 # Site settings
 title: José Coto - A data science practitioner's blog
 email: jcoto.contact@gmail.com
-description: web page about data science and 
- projects I am working on.
+description: Hi, I'm José Coto. I am currently based in Berlin, where I work as a 
+Data Science freelancer. I use data for understanding social and individual behavior. 
+In my analyses, I really enjoy working with Python, pandas, matplotlib and other statistical libraries. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: jcoto
 github_username:  jlcoto
-paginate: 10
+paginate: 5
 gems: [jekyll-paginate]
 
 # Build settings
