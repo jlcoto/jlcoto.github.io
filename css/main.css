@@ -273,12 +273,17 @@
 
 .image-post {
 	display: block;
-	margin-left: 17%;
+	margin-left: 12%;
     margin-right: 10%;
 }
 
 .big-plot {
 	margin-left: 0%;
+    margin-right: 0%;
+}
+
+.bigger-plot-left {
+	margin-left: -5%;
     margin-right: 0%;
 }
 
