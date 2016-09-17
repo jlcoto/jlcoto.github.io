@@ -131,7 +131,7 @@ plt.matshow(final_corr_mat,
 <img src="/img/corr_matr_div.png" alt="corr matrix div plot" class="image-post">
 
 
-If you want to know more about seaborn styles, be sure to check their detailed, yet incredibly friendly [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html) and [api reference](https://stanford.edu/~mwaskom/software/seaborn/api.html). Hope this quick post will help you plot more appealing and informative graphs!
+If you want to know more about seaborn styles, be sure to check their detailed, yet incredibly friendly [tutorial](https://stanford.edu/~mwaskom/software/seaborn/tutorial.html) and [api reference](https://stanford.edu/~mwaskom/software/seaborn/api.html). You can also check [here](https://github.com/jlcoto/visualizations/blob/master/color_palettes_seaborn.ipynb) the accompanying jupyter notebook that I created. Hope this quick post will help you plot more appealing and informative graphs!
 
 
 
