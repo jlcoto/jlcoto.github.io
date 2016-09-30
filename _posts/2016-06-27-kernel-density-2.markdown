@@ -2,6 +2,8 @@
 layout: post
 title:  "On histograms and kernel densities (II)"
 date:   2016-06-27 00:24:55 +0100
+category: Stats
+tags: [histogram, kernel density, matplotlib]
 ---
 
 

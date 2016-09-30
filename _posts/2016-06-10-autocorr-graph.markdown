@@ -2,6 +2,8 @@
 layout: post
 title:  "Plotting autocorrelation with matplotlib"
 date:   2016-06-10 00:24:55 +0100
+category: Data Visualization
+tags: [time series, matplotlib]
 ---
 
 Part of time series analysis deals with pinning down the stochastic process that generated the data. If we know how this process looks like, we will be better able to predict its future values. 

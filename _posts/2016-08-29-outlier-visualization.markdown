@@ -2,6 +2,8 @@
 layout: post
 title:  "Visualizing Outliers with d3.js"
 date:   2016-08-29 00:24:55 +0100
+category: Data Visualization
+tags: d3.js
 ---
 
 I really like data visualization. I think many concepts could be easily explained with the right kind of visuals. That is why I was happy to attend the data visualization talk in the last PyData Berlin. Oddly enough, the visualizations presented were not created with matplotlib, bokeh, or any other of the known tools known to the Python community. They used d3.js.

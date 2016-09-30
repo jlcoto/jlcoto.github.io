@@ -2,6 +2,8 @@
 layout: post
 title:  "Data pipes with pandas"
 date:   2016-07-04 00:24:55 +0100
+category: Data Analysis
+tags: [pandas]
 ---
 
 Lately, I have kept myself busy reading the `pandas` [documentation](http://pandas.pydata.org/pandas-docs/stable/). I am always happy when I find something very useful that I didn't know before. One of the things that I've lately discovered is piping. 

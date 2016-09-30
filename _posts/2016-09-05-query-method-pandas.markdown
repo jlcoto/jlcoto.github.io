@@ -2,6 +2,8 @@
 layout: post
 title:  "Panda's query method"
 date:   2016-09-06 00:24:55 +0100
+category: Data Analysis
+tags: pandas
 ---
 
 Pandas is great when we need to select or filter our data  according to some criteria. Generally, no loops are needed. A clear statement of what we want is just enough. 

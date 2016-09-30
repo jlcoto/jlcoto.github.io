@@ -2,6 +2,8 @@
 layout: post
 title:  "On histograms and kernel densities (I)"
 date:   2016-06-18 00:24:55 +0100
+category: Stats
+tags: [histogram, kernel density, matplotlib]
 ---
 
 Histograms and kernel densities are ubiquitous in data analysis. At a exploratory stage, we want to know about the variables' distribution. You can quickly check some descriptive statistics like the mean, variance, percentile and kurtosis. Or, to have a clear picture, you can plot histograms or kernel densities.

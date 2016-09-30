@@ -2,6 +2,8 @@
 layout: post
 title:  "What's the difference between loc, iloc, and ix?"
 date:   2016-07-11 00:24:55 +0100
+category: Data Analysis
+tags: [pandas]
 ---
 
 Part of the regular trade of conducting data analysis is slicing. Slicing means taking a part of your data set for further inspection. `pandas` offers at least three methods for slicing data: `.loc[]`, `.iloc[]`, and `.ix[]`. It is really easy to take one for the other. Here is a quick reference to help you tell them apart.

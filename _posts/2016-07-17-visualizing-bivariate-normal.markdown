@@ -2,6 +2,8 @@
 layout: post
 title:  "Visualizing the bivariate normal distribution and its properties"
 date:   2016-07-17 00:24:55 +0100
+category: Data Visualization
+tags: [matplotlib, 3D plotting]
 ---
 
 The normal distribution plays a central role in statistics and natural sciences. There are multiple natural phenomena (e.g. population height) that are closely described by a normal distribution. The picture that comes to mind when talking about the normal distribution is that of a bell shaped curved. Once we consider higher dimension random variables it s more difficult, or even impossible, drawing pictures to help us grasp the variables' distribution features. 

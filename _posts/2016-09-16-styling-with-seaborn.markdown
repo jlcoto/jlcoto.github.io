@@ -2,6 +2,8 @@
 layout: post
 title:  "Styling plots with Seaborn"
 date:   2016-09-16 00:24:55 +0100
+category: Data Visualization 
+tags: [seaborn, matplotlib]
 ---
 
 So you have spent hours crunching numbers, figuring out how to use numpy and pandas, and you are finally ready for the fun stuff: plotting! After fighting with matplotlib for some time, there it is, you got it. Your first plot. 

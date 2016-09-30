@@ -247,6 +247,24 @@
 	max-width: 360px;
 }
 
+.post-tag{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.post-tag a:link {
+	text-decoration: none;
+	color: #958E8E;
+}
+
+.post-tag a:visited {
+	text-decoration: none;
+	color: #958E8E;
+}
+
+.post-tag a:hover {
+	color:#716A6A;
+}
 
 .post-meta{
 	color: #958E8E;
@@ -490,7 +508,44 @@
 	color: #403A3A;
 }
 
+/*styling tag page*/
 
+.tag-look {
+	font-size: 23px;
+	color: #958E8E;
+	font-weight: lighter;
+}
+
+.post-tag-title {
+	color: #716A6A;
+	font-weight: 400;
+
+}
+
+.date-tag {
+	font-size: 12px;
+	font-style: italic;
+
+}
+
+.date-tag a:link {
+	text-decoration: none;
+	color: #958E8E;
+}
+
+.date-tag a:visited {
+	text-decoration: none;
+	color: #958E8E;
+}
+
+.date-tag a:hover {
+	color:#716A6A;
+}
+
+.tag-list{
+	font-size: 14px;
+
+}
 
 
 
