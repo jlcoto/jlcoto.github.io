@@ -429,6 +429,12 @@
     height: 100%;
 }
 
+.map_plotting_big iframe {
+	margin-left: -175px;
+	padding-left: 30px;
+	margin-bottom: -50px;
+}
+
 
 
 #disqus_thread {
