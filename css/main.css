@@ -62,7 +62,7 @@
 	left:150px;
 	position:relative;
 	margin-left:14%;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 .post-list a {
@@ -115,7 +115,7 @@
 
 .head-menu a:hover {
 	border-bottom: 2px solid #B60B0B;
-} 
+}
 
 .post-list a:link {
 	color: #958383;
@@ -152,7 +152,7 @@
 }
 
 
-.pagination {   
+.pagination {
 	display: inline-block;
     padding: 0.3125em 0.625em;
     border-radius: 0.4em;
@@ -178,7 +178,7 @@
 	font-family: "icomoon";
 	color: #958E8E;
 	font-size: 1.7em;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 .twitter:after {
@@ -186,7 +186,7 @@
 	font-family: "icomoon";
 	color: #958E8E;
 	font-size: 1.7em;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 .instagram:after {
@@ -194,7 +194,7 @@
 	font-family: "icomoon";
 	color: #958E8E;
 	font-size: 1.7em;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 .linkedin:after {
@@ -202,7 +202,7 @@
 	font-family: "icomoon";
 	color: #958E8E;
 	font-size: 1.7em;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 .github:hover:after{
@@ -309,13 +309,20 @@
     margin-right: 0%;
 }
 
+.animated-gif {
+	width: 100%;
+	height: 250px;
+	margin: 20px 0px;
+}
+
+
 .single-table table {
 	border-collapse: collapse;
     border-spacing: 2;
     display: inline-block;
 	padding-top: 5px;
 	margin-left: 25%;
-	margin-bottom: -10px; 
+	margin-bottom: -10px;
 }
 
 .single-table th {
@@ -338,6 +345,12 @@
 	border:1px solid #B79D9D;
 }
 
+.big-table {
+    width: 120%;
+    margin-left: -30%;
+    margin-bottom: 20px;
+}
+
 .arrow-down {
 	height: 25px;
 	margin-left: 2.5%;
@@ -347,7 +360,7 @@
 	font-size: 1.3em;
 	color: #D45F2D;
 	border-color: red;
-	margin-left: 25%; 
+	margin-left: 25%;
 }
 
 .next-two-tables table {
@@ -387,7 +400,7 @@
 	float: left;
 	margin-right: 80px;
 	margin-bottom: 10px;
-	
+
 }
 
 
@@ -591,8 +604,8 @@
 		.logo-background{
 		width: 250px;
 		height: 95px;
-		margin-left: -100px;	
-		} 
+		margin-left: -100px;
+		}
 
 		.der_game {
 		width: 75px;
@@ -602,7 +615,7 @@
 		}
 
 		.post {
-		font-size: 0.8em;	
+		font-size: 0.8em;
 		}
 
 		.post-list a {
@@ -610,7 +623,7 @@
 		}
 
 		.post_extract {
-		font-size: 0.85em;	
+		font-size: 0.85em;
 		}
 
 		.post-title {
@@ -689,8 +702,8 @@
 	.logo-background{
 	width: 340px;
 	height: 140px;
-	margin-left: 1%;	
-	} 
+	margin-left: 1%;
+	}
 
 	.der_game {
 	width: 125px;
@@ -708,7 +721,7 @@
 
 	.class_meth {
 	width: 125px;
-	height: 125px;		
+	height: 125px;
 	}
 
 	.project-box h3 {

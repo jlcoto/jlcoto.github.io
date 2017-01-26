@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Responsive dashboard with CSS and d3.js (I)"
+title:  "Building a responsive dashboard with CSS and d3.js (I)"
 date:   2017-01-17 00:24:55 +0100
 tags: [d3.js, visualization]
 ---
 
-Dashboards are everywhere now partly because they can lead to better decision making. They allow to look at our data through a series of visualizations instead of looking at some cryptic numbers on a spreadsheet. 
+Dashboards are everywhere now partly because they can lead to better decision making. They allow to look at our data through a series of visualizations instead of looking at some cryptic numbers on a spreadsheet.
 
-For this project, I connected the dots between two things I have been learning lately. On the one hand, I am very interested in responsive design.  I am learning how to use CSS to provide a seamless user experience, no matter what the device they might be using. On the other hand, I love visualizations. Lately, I have been learning D3.js and have being amazed by all the interactivity it offers. 
+For this project, I connected the dots between two things I have been learning lately. On the one hand, I am very interested in responsive design.  I am learning how to use CSS to provide a seamless user experience, no matter what the device they might be using. On the other hand, I love visualizations. Lately, I have been learning D3.js and have being amazed by all the interactivity it offers.
 
 The project, as you may have imagined, deals with making a responsive D3.js dashboard. The case I had in mind was the following: Imagine you work for a company and you have different users that need to access the dashboard. Some of them will do it on the fly, on their cell phones. Others will use tablets, laptops or desktops. How do you make sure all of them have the same harmonious experience?
 
@@ -17,13 +17,13 @@ I have divided this topic in two post. In this one, I will cover some CSS aspect
 
 ### Flexbox is your friend
 
-Flexbox allows us to arrange our content in a grid layer way. Additionally, it offers great customization in terms of layout. If you want to check out more, this is a [great resource](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). 
+Flexbox allows us to arrange our content in a grid layer way. Additionally, it offers great customization in terms of layout. If you want to check out more, this is a [great resource](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-I'll be using flexbox for customizing three different layouts. We'll call it the small, medium and big layouts. The idea is that the small should be for small devices, like phones. As a rule in responsive design, we will think on mobile first. From there on, we will perform  modifications for the medium and big layouts. However, before checking at the layout specifications, let's see what data we'll be dealing with. 
+I'll be using flexbox for customizing three different layouts. We'll call it the small, medium and big layouts. The idea is that the small should be for small devices, like phones. As a rule in responsive design, we will think on mobile first. From there on, we will perform  modifications for the medium and big layouts. However, before checking at the layout specifications, let's see what data we'll be dealing with.
 
 ### Our content
 
-It is a good practice to consider content and layout at the same time. After all, the layout should help make our content clear notwithstanding what device is accessed from. In our case, we will be be using a simple sales/cost per month graph of a made up company which, of course, has made up data. 
+It is a good practice to consider content and layout at the same time. After all, the layout should help make our content clear notwithstanding what device is accessed from. In our case, we will be be using a simple sales/cost per month graph of a made up company which, of course, has made up data.
 
 Our dashboard will contain 6 graphs:
 
@@ -44,11 +44,11 @@ From then on, I chose two other breaking points. I choose the first one when the
 
 Here is the layout I chose:
 
-<img src="/img/layout_template.png" alt="layout template" class="image-post big-plot"> 
+<img src="/img/layout_template.png" alt="layout template" class="image-post big-plot">
 
 For the small resolution, I decided not to give any relevance to the graphs in terms of height and width. All of the graphs are the same and should occupy 100% of the device's width. In the medium and big layouts we start seeing the changes. In particular, these deal with giving more relevance to our main graphs, general sales and costs, which will occupy a bigger portion of the width and height of the screen. I also decided to add some margins to the left and right of the graph once it hits the 900px breakpoint. I did this for preventing too stretched graphs.
 
-Feel free to check out [here](https://htmlpreview.github.io/?https://github.com/jlcoto/visualizations/blob/master/dashboard/dashboard_layout/prototype.html) how this layout changes when you resize your screen. Also, you can find the code for the layout in [my repo](https://github.com/jlcoto/visualizations/tree/master/dashboard/dashboard_layout). Play around with different widths and box orders. Also, note that the widths and heights of the boxes are merely referral. We would have the chance to work on them when including our visualizations. Be sure to tune in for the next post! 
+Feel free to check out [here](https://htmlpreview.github.io/?https://github.com/jlcoto/visualizations/blob/master/dashboard/dashboard_layout/prototype.html) how this layout changes when you resize your screen. Also, you can find the code for the layout in [my repo](https://github.com/jlcoto/visualizations/tree/master/dashboard/dashboard_layout). Play around with different widths and box orders. Also, note that the widths and heights of the boxes are merely referral. We would have the chance to work on them when including our visualizations. Be sure to tune in for the next post!
 
 
 
